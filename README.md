@@ -29,8 +29,8 @@ This is a simple Todo application built off Django (backend - API CRUD operation
 
 ## GitHub Links
 Backend and Frontend codes can be found here: 
-1. Backend: 
-2. Frontend: 
+1. Backend: https://github.com/greeshmamathad/todo-application-assignment/tree/main/backend
+2. Frontend: https://github.com/greeshmamathad/todo-application-assignment/tree/main/frontend
 
 ## URL of Deployments:
 To launch the project, follow the below simple instructions:
@@ -44,5 +44,21 @@ To launch the project, follow the below simple instructions:
    ```
 5. Run the backend django appliction:
    ```python manage.py runserver```
-6. Open a new terminal and navigate to the frontend directory ```[cd frontend]```
-7. Run the frontend react app ```yarn start```
+6. The backend can be accessed at the URL: 
+   ```http://127.0.0.1:8000/admin/```
+7. Please login using the following pre-created test user credentials:
+   ```
+   username: gsm
+   password: foo
+   ```
+8. Open a new terminal and navigate to the frontend directory ```[cd frontend]```
+9. Run the frontend react app ```yarn start```
+10. The frontend website is live at: ```http://localhost:3000/```
+
+The todo tasks can be created, edited and deleted on the frontend. The same can be seen on backend Django interface:
+
+Frontend UI: 
+![Frontend UI](./frontend/images/frontend.png?raw=true)
+
+Backend UI:
+![Backend UI](./frontend/images/backend.png?raw=true)
